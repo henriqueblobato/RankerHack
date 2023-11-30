@@ -78,7 +78,20 @@ The Python script, encapsulated within a Docker container, utilizes a user-speci
 - Check better ways to replace playwright or selenium.
 
 #### Future Plan Architecture
-- <img width="887" alt="Screen Shot 2023-11-30 at 19 56 48" src="https://github.com/henriqueblobato/RankerHack/assets/18133417/8565b8c1-6830-4703-bf0e-562bf834a757">
+<img width="881" alt="Screen Shot 2023-11-30 at 20 05 24" src="https://github.com/henriqueblobato/RankerHack/assets/18133417/e1f056b6-a03e-4ae6-b40a-2921eddd86ad">
+Request JS Script: The Browser initiates the interaction by sending a request to the Server asking for a JavaScript script.
+
+Send JS Script: Upon receiving the request, the Server retrieves the requested JavaScript script and sends it back to the Browser.
+
+Load JS Script: Once the Browser receives the JavaScript script, it loads and executes the script.
+
+Execute Proxy Code: The executed JavaScript script, represented by the Proxy Script, establishes a proxy connection with the Server.
+
+Start Sending Data: The Browser starts sending data to the Server through the established proxy connection.
+
+Process Trigger and Send Console Print: The Server receives the data sent by the Browser, processes any triggers, and generates console print messages.
+
+Show Console Print: The Browser receives the console print messages from the Server and displays them on the user's console.
 
 
 ### Contribution Guidelines
