@@ -14,25 +14,6 @@ from dotenv import load_dotenv
 from mitmproxy import http
 
 from PIL import Image
-from playwright.sync_api import sync_playwright
-
-
-def configure_browser_with_proxy():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            proxy={
-                "server": "http://localhost:8081",
-                "username": os.getenv('PROXY_USERNAME'),
-                "password": os.getenv('PROXY_PASSWORD'),
-            }
-        )
-        context = browser.new_context()
-        page = context.new_page()
-        page.goto("https://www.google.com")
-
-        # context.close()
-        # browser.close()
-
 
 load_dotenv()
 
@@ -173,26 +154,6 @@ def response(flow: http.HTTPFlow):
 
 
 if __name__ == '__main__':
-    configure_browser_with_proxy()
-
     from mitmproxy.tools.main import mitmdump
 
     mitmdump(['-p', '8081', '-s', __file__])
-
-
-    # for _ in range(10):
-    #     r = ask_pipeline({
-    #         'question_text': 'What is the capital of France?',
-    #         'answers': ['Paris', 'Berlin', 'London']
-    #     })
-    #     print(r)
-
-    # with open('gorilla_test.json', 'r') as f:
-    #     test_response = json.load(f)
-    #     for element_data in test_response:
-    #         data = {
-    #             "question_text": element_data['question_text'],
-    #             "answers": element_data['answers']
-    #         }
-    #         r = ask_pipeline(data)
-    #         # print(r)

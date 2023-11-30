@@ -45,8 +45,20 @@ The Python script, encapsulated within a Docker container, utilizes a user-speci
 
 4. **Build the Docker Image and run it:**
     ```bash
-    make all
+    make
     ```
+   
+5. **Once its running, open your browser at the following address:**
+    ```plaintext
+    http://mitm.it
+    ```
+    - And follow the instructions to install the certificate according to your operating system.
+
+6. **Open your browser at assessment endpoint:**
+    ```plaintext
+    https://company_assessment.tst_grla.com/
+    ```
+    - Expect answers to be generated for the questions in the assessment.
    
 ### Tested on platforms:
 - TestGorilla
