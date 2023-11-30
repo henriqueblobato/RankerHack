@@ -11,7 +11,7 @@ build:
 	docker build -t $(DOCKER_IMAGE_NAME) .
 
 run:
-	docker run -it $(DOCKER_IMAGE_NAME)
+	docker run -p 8081:8081 $(DOCKER_IMAGE_NAME)
 
 clean:
 	docker stop $$(docker ps -a -q) || true
