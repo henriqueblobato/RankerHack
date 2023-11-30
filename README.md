@@ -54,6 +54,9 @@ The Python script, encapsulated within a Docker container, utilizes a user-speci
     ```
     - And follow the instructions to install the certificate according to your operating system.
 
+<img width="816" alt="Screen Shot 2023-11-30 at 19 35 07" src="https://github.com/henriqueblobato/RankerHack/assets/18133417/ef441dd1-3753-430b-a02e-70da9159712f">
+
+
 6. **Open your browser at assessment endpoint:**
     ```plaintext
     https://company_assessment.tst_grla.com/
