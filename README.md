@@ -77,6 +77,10 @@ The Python script, encapsulated within a Docker container, utilizes a user-speci
 - Explore advanced methods to maximize flexibility and scalability in utilizing Hugging Face models across various NLP applications.
 - Check better ways to replace playwright or selenium.
 
+#### Future Plan Architecture
+- <img width="887" alt="Screen Shot 2023-11-30 at 19 56 48" src="https://github.com/henriqueblobato/RankerHack/assets/18133417/8565b8c1-6830-4703-bf0e-562bf834a757">
+
+
 ### Contribution Guidelines
 Contributions to improve the script's capabilities, Docker configurations, or documentation are encouraged! Fork the repository, make your modifications, and create a pull request.
 
