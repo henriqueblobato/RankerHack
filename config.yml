@@ -1,15 +1,21 @@
 paths:
-  - url_path: "/api/candidatures/questions/next/"
-    handler: "handlers.test_gorilla.api_candidatures_questions_next"
-    description: "Test Gorilla Multiple Question Handler"
-    method: "GET"
-    timeout: 5
-#    headers:
-#      Authorization: "Bearer YOUR_TOKEN"
+#  - url_path: "/api/candidatures/questions/next/"
+#    handler: "handlers.test_gorilla.api_candidatures_questions_next"
+#    description: "Test Gorilla Multiple Question Handler"
+#    method: "GET"
+#    timeout: 5
+##    headers:
+##      Authorization: "Bearer YOUR_TOKEN"
+#
+#  - url_path: "firefox/120.0.1/whatsnew/"
+#    handler: "handlers.debuggers.debugger_method"
+#    description: "Test Gorilla Multiple Question Handler"
+#    method: "GET"
+#    timeout: 5
 
-  - url_path: "firefox/120.0.1/whatsnew/"
-    handler: "handlers.debuggers.debugger_method"
-    description: "Test Gorilla Multiple Question Handler"
+  - url_path: "api.hire.toggl.com/graph/candidate"
+    handler: "handlers.debuggers.coder_byte"
+    description: "Coder Byte Test"
     method: "GET"
     timeout: 5
 
@@ -21,3 +27,4 @@ paths:
 
 drop_paths:
   - "/api/candidatures/anticheating/"
+  - "sentry_key="

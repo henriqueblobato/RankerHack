@@ -1,0 +1,462 @@
+{
+  "data": {
+    "startTest": {
+      "id": 1046752,
+      "tests": [
+        {
+          "id": 49546,
+          "status": "started",
+          "startedAt": "2024-02-27T18:27:07.766964Z",
+          "questions": [
+            {
+              "id": 2231851,
+              "description": "In a SELECT query, which clause is executed first? ",
+              "orderWeight": 3,
+              "questionType": "single-choice",
+              "options": [
+                {
+                  "id": 9488042,
+                  "content": "`WHERE`",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488043,
+                  "content": "`HAVING`",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231852,
+              "description": "Choose the correct statements regarding the Python logging module:\n",
+              "orderWeight": 4,
+              "questionType": "multiple-choice",
+              "options": [
+                {
+                  "id": 9488044,
+                  "content": "The logging module can use multiple handlers.",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488045,
+                  "content": "You can configure a single handler to a specific logger.",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488046,
+                  "content": "You can configure multiple handlers to one or more loggers.",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488047,
+                  "content": "When using the logging.getLogger() function, if the specified logger is not found, an exception is raised.",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231853,
+              "description": "Given the following list:\n\n```\nlist1 = [1, 4, 5, 6, 9]\n```\n\nChoose the correct ways to filter only the even numbers:\n",
+              "orderWeight": 5,
+              "questionType": "multiple-choice",
+              "options": [
+                {
+                  "id": 9488048,
+                  "content": "list.filter(lambda item: item % 2 == 0)",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488049,
+                  "content": "[item for item in list1 if item % 2 == 0]",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488050,
+                  "content": "filter(lambda item: item % 2 == 0, list1)",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488051,
+                  "content": "filtered(list1, lambda item: item % 2 == 0)",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231854,
+              "description": "How can you change the way two instances of a specific class behave on comparison?\n",
+              "orderWeight": 6,
+              "questionType": "single-choice",
+              "options": [
+                {
+                  "id": 9488052,
+                  "content": "Override the ` __get__` method and return normalized values for comparison.",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488053,
+                  "content": "Override the `__str__` method and return normalized values for comparison.",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488054,
+                  "content": "Override the `__compare__` special method.",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488055,
+                  "content": "Override methods like `__gt__`, `__lt__`,` __eq__`, etc.",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231855,
+              "description": "Consider the following code:\n\n```\npath = media_root + '/' + year + '/' + month + '/' + filename\n```\n\nChoose the correct statement(s):\n",
+              "orderWeight": 7,
+              "questionType": "multiple-choice",
+              "options": [
+                {
+                  "id": 9488056,
+                  "content": "It will only work on UNIX operating systems. os.path.join should be used instead.",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488057,
+                  "content": "The code is correct and a best practice.",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488058,
+                  "content": "It will only work on Windows operating systems.",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488059,
+                  "content": "Merging strings with + is not recommended. It will fail if one of the variables is\nnot a string.",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231856,
+              "description": "Choose the correct statements about Python dictionaries:\n",
+              "orderWeight": 8,
+              "questionType": "multiple-choice",
+              "options": [
+                {
+                  "id": 9488060,
+                  "content": "Dictionaries are ordered.",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488061,
+                  "content": "Dictionaries are ordered only at programmatic key/value insertion.",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488062,
+                  "content": "Dictionaries are not ordered.",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488063,
+                  "content": "For ordering dictionaries, there is a special dict implementation named OrderedDict.",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231857,
+              "description": "Given the following script, what will be the value of `my_string`\n\n```\nmy_sentence = \"I love to learn new things\"\nsplited = my_sentence.split()\nx = splited[-1]\n```",
+              "orderWeight": 10,
+              "questionType": "single-choice",
+              "options": [
+                {
+                  "id": 9488064,
+                  "content": "\"I\"",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488065,
+                  "content": "\"things\"",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488066,
+                  "content": "\"love\"",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488067,
+                  "content": "\" \"",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231858,
+              "description": "Choose the correct implementation of the Person class, knowing that after executing the\r following code:\n\n```\njohn = Person(\"John\", \"Snow\")\nprint(john.get_full_name())\n```\n\nthe following output is printed:\n\n```\nJohn Snow\n```\n\n**A:**\n\n```\nclass Person(object):\n  def __init__(self):\n    self.first_name = first_name\n    self.last_name = last_name\n\n  def get_full_name(self):\n    return f\"{self.first_name} {self.last_name}\"\n```\n\n**B:**\n\n```\nclass Person(object):\n  def __init__(self, first_name, last_name):\n    self.first_name = first_name\n    self.last_name = last_name\n\n  def get_full_name(self):\n    return f\"{self.first_name} {self.last_name}\"\n```\n\n**C:**\n\n```\nclass Person(object):\n  def __init__(self, first_name, last_name):\n    self.first_name = first_name\n    self.last_name = last_name\n\n  @staticmethod\n  def get_full_name(self):\n    return f\"{self.first_name} {self.last_name}\"\n```\n\n**D:**\n\n```\nclass Person(object):\n  def get_full_name(self, first_name, last_name):\n    return f\"{first_name} {last_name}\"\n```\n",
+              "orderWeight": 11,
+              "questionType": "single-choice",
+              "options": [
+                {
+                  "id": 9488068,
+                  "content": "A",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488069,
+                  "content": "B",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488070,
+                  "content": "C",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488071,
+                  "content": "D",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231859,
+              "description": "What will be the output of the following code?\n\n```python\nname = \"Harry\"\n\nfor i in name:\n\tprint(i)\n```",
+              "orderWeight": 12,
+              "questionType": "single-choice",
+              "options": [
+                {
+                  "id": 9488072,
+                  "content": "It'll raise a `ValueError`",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488073,
+                  "content": "It'll print `Harry` multiple times",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488074,
+                  "content": "It'll print each character once",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231860,
+              "description": "What gets printed?\n\n```\nnames = {\"Horhe\", \"John\", \"Horhe\"}\nprint(names)\n```\n",
+              "orderWeight": 13,
+              "questionType": "single-choice",
+              "options": [
+                {
+                  "id": 9488075,
+                  "content": "It raises a syntax error.",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488076,
+                  "content": "{'Horhe', 'John', 'Horhe'}",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488077,
+                  "content": "{'Horhe', 'John'}",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488078,
+                  "content": "{'Horhe': None, 'John': None}",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231861,
+              "description": "What will be the output of the following code?\n\n```python\nname = \"Harry\"\n\nprint(name[0])\n```",
+              "orderWeight": 14,
+              "questionType": "single-choice",
+              "options": [
+                {
+                  "id": 9488079,
+                  "content": "It'll raise a `ValueError`",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488080,
+                  "content": "`None`",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488081,
+                  "content": "`H`",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488082,
+                  "content": "`Harry`",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231862,
+              "description": "What will be the output of the following code?\n\n```python\nnames = [\"Harry\", \"Ron\", \"Hermione\", \"Ginny\", \"Draco\"]\n\nnames.sort()\n\nprint(names)\n```",
+              "orderWeight": 17,
+              "questionType": "single-choice",
+              "options": [
+                {
+                  "id": 9488083,
+                  "content": "`['Draco', 'Ginny', 'Harry', 'Hermione', 'Ron']`",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488084,
+                  "content": "`['Ron', 'Hermione', 'Harry', 'Ginny', 'Draco']`",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488085,
+                  "content": "`['Harry', 'Ron', 'Hermione', 'Ginny', 'Draco']`",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231863,
+              "description": "What does it mean to be I/O bound?",
+              "orderWeight": 18,
+              "questionType": "single-choice",
+              "options": [
+                {
+                  "id": 9488086,
+                  "content": "To perform input/output operations",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488087,
+                  "content": "Majority of time is spent on waiting for input/output operations to complete",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488088,
+                  "content": "To be also CPU bound",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488089,
+                  "content": "Processing input/output is faster",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            },
+            {
+              "id": 2231864,
+              "description": "What is a difference between a race condition and a deadlock?",
+              "orderWeight": 19,
+              "questionType": "multiple-choice",
+              "options": [
+                {
+                  "id": 9488090,
+                  "content": "In a race condition the program is running faster than in a deadlock.",
+                  "orderWeight": 0,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488091,
+                  "content": "In a race condition the program is running, but results are incorrect. When deadlock happens, program is stopped.",
+                  "orderWeight": 1,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488092,
+                  "content": "Deadlock happens in multithreaded programs, race condition in single-threaded.",
+                  "orderWeight": 2,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488093,
+                  "content": "Race condition is when two or more threads interact in a buggy way; deadlock when two or more threads are blocking each other trying to access shared resources.",
+                  "orderWeight": 3,
+                  "__typename": "QuestionOption"
+                },
+                {
+                  "id": 9488094,
+                  "content": "Deadlock causes a crash, race condition does not.",
+                  "orderWeight": 4,
+                  "__typename": "QuestionOption"
+                }
+              ],
+              "__typename": "Question"
+            }
+          ],
+          "__typename": "CandidateTest"
+        }
+      ],
+      "__typename": "Candidate"
+    }
+  }
+}
